@@ -1,6 +1,7 @@
 # UPESI
 
- ### UPESI
+Code for paper [Not Only Domain Randomization: Universal Policy with Embedding System Identification](https://arxiv.org/abs/2109.13438).
+ ## Training Procedure
  For the universal policy (UP) with embedding system identification (ESI), we use the following commands.
 
  First go to the directory:
