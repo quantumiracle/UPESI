@@ -7,8 +7,15 @@ Code for paper [Not Only Domain Randomization: Universal Policy with Embedding S
  
  ## Training Procedure
  For the universal policy (UP) with embedding system identification (ESI), we use the following commands.
+ 
+First pretrained models are needed for each environment to rollout samples for further usage (learn the dynamics prediction in our method):
+0. Get pretrained model
+```
+python train.py --train --env inverteddoublependulum --process 1 --alg td3
+```
+as an example for the InvertedDoublePendulum environment, using TD3 algorithm for training. After training, there will be weights in the data folder. You just need to replace the model path in later scripts with the one you got to make it run.
 
- First go to the directory:
+Go to the directory:
  ```bash
   cd dynamics_predict
  ```
