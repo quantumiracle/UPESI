@@ -9,6 +9,7 @@ Code for paper [Not Only Domain Randomization: Universal Policy with Embedding S
  For the universal policy (UP) with embedding system identification (ESI), we use the following commands.
  
 First pretrained models are needed for each environment to rollout samples for further usage (learn the dynamics prediction in our method):
+
 0. Get pretrained model
 ```
 python train.py --train --env inverteddoublependulum --process 1 --alg td3
