@@ -5,6 +5,17 @@ Code for paper [Not Only Domain Randomization: Universal Policy with Embedding S
  ## Installation
  This repo uses the same environment as [another repo](https://github.com/quantumiracle/Robotic_Door_Opening_with_Tactile_Simulation). Please follow the steps there to install our modified version of robosuite.
  
+ ## Citation:
+Please cite the our paper if you make use of this repo:
+```
+@article{ding2021not,
+  title={Not Only Domain Randomization: Universal Policy with Embedding System Identification},
+  author={Ding, Zihan},
+  journal={arXiv preprint arXiv:2109.13438},
+  year={2021}
+}
+```
+ 
  ## Training Procedure
  For the universal policy (UP) with embedding system identification (ESI), we use the following commands.
  
