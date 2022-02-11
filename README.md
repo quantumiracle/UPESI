@@ -3,7 +3,7 @@
 Code for paper [Not Only Domain Randomization: Universal Policy with Embedding System Identification](https://arxiv.org/abs/2109.13438).
 
  ## Installation
- This repo uses the same environment named [robolite](https://github.com/quantumiracle/robolite), which is a modified verison of robosuite to support **domain randomisation** and **inverse kinematics (IK)**. Our modified environment is also used in [another project](https://github.com/quantumiracle/Robotic_Door_Opening_with_Tactile_Simulation). To install this environment, just to go to [robolite](https://github.com/quantumiracle/robolite) and clone it, then:
+ This repo uses the same environment named [robolite](https://github.com/quantumiracle/robolite), which is a modified verison of robosuite to support **domain randomisation** and **inverse kinematics (IK)**. Our modified environment is also used in [another project](https://github.com/quantumiracle/Robotic_Door_Opening_with_Tactile_Simulation). To install this environment, just to go to [robolite](https://github.com/quantumiracle/robolite) and clone it, then in the cloned folder (./robolite):
  ```
 pip install -r requirements.txt
 pip install -e .
