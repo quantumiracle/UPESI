@@ -27,7 +27,8 @@ def load_policy(env, load_from, params, policy_class=DPG_PolicyNetwork):
     """
     policy = policy_class(env.observation_space, env.action_space, params['hidden_dim'], params['action_range'])
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
-
+    policy = policy.to(device)
+    
     if load_from:
         policy.load_state_dict(torch.load(load_from, map_location=device))
     return policy
