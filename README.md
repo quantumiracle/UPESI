@@ -26,6 +26,8 @@ Please cite the our paper if you make use of this repo:
 First pretrained models are needed for each environment to rollout samples for further usage (learn the dynamics prediction in our method):
 
 0. Get pretrained model
+
+Remember to suspend parameter randomization (set `randomized_params=None` in `./default_params.py`) for getting this policy.
 ```
 python train.py --train --env inverteddoublependulum --process 1 --alg td3
 ```
